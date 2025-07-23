@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Super Shop – Home</title>
+  <link rel="stylesheet" href="styles/styles.css" />
+  <meta name="description" content="Buy electronics, fashion, and more at Super Shop – your affordable eCommerce store.">
+</head>
+<body>
+
+  <header>
+    <h1>🛍️ Super Shop</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="cart.html">Cart (<span id="cart-count">0</span>)</a>
+      <a href="admin.html" id="admin-link" style="display: none;">Admin</a>
+      <a href="login.html" id="login-link">Login</a>
+    </nav>
+  </header>
+
+  <main>
+    <input id="search-bar" placeholder="🔍 Search products..." />
+    <div id="loader" class="loader" style="display: none;"></div>
+    <section class="product-grid" id="product-list"></section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Super Shop. All rights reserved.</p>
+  </footer>
+
+  <script src="scripts/api.js"></script>
+  <script src="scripts/main.js"></script>
+  <script src="scripts/chatbot.js"></script>
+</body>
+</html>

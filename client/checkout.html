@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Checkout – Super Shop</title>
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+  <header>
+    <h1>Checkout</h1>
+    <nav>
+      <a href="index.html">Home</a>
+    </nav>
+  </header>
+  <main>
+    <form id="checkout-form">
+      <input type="text" placeholder="Full Name" required>
+      <input type="email" placeholder="Email" required>
+      <input type="text" placeholder="Shipping Address" required>
+      <button type="submit" class="btn">Place Order</button>
+    </form>
+    <div id="thank-you" style="display:none;">
+      <h2>✅ Order placed successfully!</h2>
+      <p>Thank you for shopping with us.</p>
+    </div>
+  </main>
+  <script src="scripts/checkout.js"></script>
+</body>
+</html>
