@@ -1,7 +1,7 @@
-🛍️ Super Shop
+🛍️ Super Shop .
 Super Shop is a high-end, full-stack eCommerce web application built with modern web technologies. It allows customers to explore a responsive product catalog, use a dynamic cart system, place orders via checkout, and interact with an AI-driven chatbot — all backed by a secure Node.js + MongoDB backend.
 
-🔗 Live Demo
+🔗 Live Demo .
 🚧 Coming Soon — Deployed Link (use Netlify or Vercel for frontend, Render or Railway for backend)
 
 📦 Project Structure
